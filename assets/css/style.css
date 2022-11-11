@@ -59,7 +59,9 @@ h1, h2 {
 #hero-image {
     height: 500px;
     width: 100%;
-    background: url('../images/hero-image.jpg') no-repeat center center;
-    background-attachment: fixed;
+    background: url('../images/hero-image.jpg') no-repeat center;
+    background-attachment: absolute;
     background-size: cover;
 }
+
+/*pool details*/
