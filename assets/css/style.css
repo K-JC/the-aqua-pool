@@ -24,8 +24,9 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 270%;
+    font-size: 280%;
     line-height: 75px;
+    padding-left: 20px;
 }
 
 #nav-bar {
@@ -56,5 +57,9 @@ h1, h2 {
 /*main hero image*/
 
 #hero-image {
-   
+    height: 500px;
+    width: 100%;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
