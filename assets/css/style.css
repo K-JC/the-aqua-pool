@@ -102,3 +102,11 @@ h1, h2 {
 }
 
 /*footer*/
+
+.social-links {
+    text-align: right;
+}
+
+.opening-times {
+    text-align: center;
+}
