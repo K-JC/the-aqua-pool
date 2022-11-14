@@ -10,13 +10,14 @@ body {
     font-family: Open Sans, sans-serif;
     font-weight: 300;
     color: #080101;
+    background-color: rgb(211, 246, 250);
 }
 
 /*logo and heading */
 
 h1, h2 {
     font-family: playfair display, sans-serif;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
     color: #0D039B;
 }
 
@@ -26,19 +27,19 @@ h1, h2 {
     float: left;
     font-size: 280%;
     line-height: 75px;
-    padding-left: 20px;
+    margin-left: 30px;
 }
 
 #nav-bar {
-    letter-spacing: 3px;
-    font-size: 100%;
+    letter-spacing: 1px;
+    font-size: 130%;
     line-height: 75px;
 }
 
 #nav-bar li {
     float: right;
     list-style-type: none;
-    margin-right: 75px;
+    margin-right: 40px;
 }
 
 #nav-bar a {
@@ -71,21 +72,33 @@ h1, h2 {
     margin-top: 80px;
 }
 
+#aqua-center  h2 {
+    font-size: 180%;
+}
+
 #benefits-center {
     text-align: center;
     margin-top: 60px;
+}
+
+#benefits-center h2 {
+    font-size: 180%;
 }
 
 .benefits-left {
     margin-left: 50px;
     text-align: left;
     line-height: 25px;
-    width: 88%;
+    width: 90%;
+    font-size: 110%;
 }
 
 .aqua-left {
     margin-left: 50px;
     text-align: left;
     line-height: 25px;
-    width: 100%;
+    width: 90%;
+    
 }
+
+/*footer*/
