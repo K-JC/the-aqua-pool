@@ -65,3 +65,27 @@ h1, h2 {
 }
 
 /*pool details*/
+
+#aqua-center {
+    text-align: center;
+    margin-top: 80px;
+}
+
+#benefits-center {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.benefits-left {
+    margin-left: 50px;
+    text-align: left;
+    line-height: 25px;
+    width: 88%;
+}
+
+.aqua-left {
+    margin-left: 50px;
+    text-align: left;
+    line-height: 25px;
+    width: 100%;
+}
