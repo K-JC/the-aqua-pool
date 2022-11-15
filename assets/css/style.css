@@ -150,7 +150,7 @@ h2 {
     font-size: 120%;
 }
 
-/*timetable*/
+/*page image*/
 
 #lady-swim-1 {
     height: 450px;
@@ -160,16 +160,43 @@ h2 {
     background-size: cover;
 }
 
+/*timetable*/
+
+table {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 130%;
+    text-align: center;
+    color: #080101;
+}
+
 table, th, tr, td {
-    border: 1px solid;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #fff;
 }
 
 #table-title {
     font-size: 230%;
+    margin-top: 30px;
+    text-align: center;
 }
 
-table, h2 {
-font-size: 140%;
-text-align: center;
-margin: 50px;
+th {
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: lightskyblue;
 }
+
+.bold {
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: lightskyblue;
+}
+
+td:hover {
+    background-color: aqua;
+}
+
+/*pricing & join us */
