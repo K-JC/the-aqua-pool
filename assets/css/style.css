@@ -15,7 +15,13 @@ body {
 
 /*logo and heading */
 
-h1, h2 {
+h1 {
+    font-family: playfair display, sans-serif;
+    letter-spacing: 4px;
+    color: #fff;
+}
+
+h2 {
     font-family: playfair display, sans-serif;
     letter-spacing: 4px;
     color: #0D039B;
@@ -44,7 +50,7 @@ h1, h2 {
 
 #nav-bar a {
     text-decoration: none;
-    color: #0D039B;
+    color: #fff;
 }
 
 #nav-bar a:hover {
@@ -136,10 +142,34 @@ h1, h2 {
 }
 
 .footer {
-    height: 90px;
+    height: 100px;
     width: 100%;
     text-align: center;
     background-color: #0D039B;
     color: #fff;
     font-size: 120%;
+}
+
+/*timetable*/
+
+#lady-swim-1 {
+    height: 450px;
+    width: 100%;
+    background: url('../images/lady-swim-1.jpg') no-repeat center;
+    background-attachment: absolute;
+    background-size: cover;
+}
+
+table, th, tr, td {
+    border: 1px solid;
+}
+
+#table-title {
+    font-size: 230%;
+}
+
+table, h2 {
+font-size: 140%;
+text-align: center;
+margin: 50px;
 }
