@@ -103,15 +103,24 @@ h1, h2 {
 
 /*footer*/
 
-#social-links {
-    text-align: left;
+.social-links {
+    text-align: center;
     float: left;
-    text-decoration: none;
-    display: inline; 
-    margin: 20px 30px;
+    margin: 20px 50px;
     letter-spacing: 1px;
-    color: #080101;
+}
 
+.social-links li {
+    list-style-type: none;
+    display: inline;
+    letter-spacing: 10px;
+    font-size: 130%;
+
+}
+
+.social-links i {
+ 
+ 
 }
 
 #opening-times {
