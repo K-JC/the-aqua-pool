@@ -173,6 +173,7 @@ table, th, tr, td {
     border: 1px solid black;
     border-collapse: collapse;
     background-color: #fff;
+    height: 80px;
 }
 
 #table-title {
@@ -209,11 +210,28 @@ td:hover {
 #price-heading {
     font-size: 190%;
     margin-top: 80px;
+    margin-bottom: 80px;
     text-align: center;
 }
 
 .price-table {
     text-align: center;
-    width: 20%;
-    border-collapse: collapse;
+    width: 15%;
 }
+
+#table-price-box {
+    height: 80px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+   font-size: 110%;
+}
+
+#join-us {
+    font-size: 190%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+
