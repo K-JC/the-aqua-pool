@@ -67,7 +67,6 @@ h2 {
     height: 450px;
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center;
-    background-attachment: absolute;
     background-size: cover;
 }
 
@@ -156,7 +155,6 @@ h2 {
     height: 450px;
     width: 100%;
     background: url('../images/lady-swim-1.jpg') no-repeat center;
-    background-attachment: absolute;
     background-size: cover;
 }
 
@@ -164,9 +162,9 @@ h2 {
 
 table {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 30px;
-    font-size: 130%;
+    font-size: 110%;
     text-align: center;
     color: #080101;
 }
@@ -178,8 +176,8 @@ table, th, tr, td {
 }
 
 #table-title {
-    font-size: 230%;
-    margin-top: 30px;
+    font-size: 190%;
+    margin-top: 80px;
     text-align: center;
 }
 
@@ -199,4 +197,23 @@ td:hover {
     background-color: aqua;
 }
 
-/*pricing & join us */
+/*price list*/
+
+#woman-pool-1{
+    height: 450px;
+    width: 100%;
+    background: url('../images/women-pool-1.jpg') no-repeat center;
+    background-size: cover;
+}
+
+#price-heading {
+    font-size: 190%;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.price-table {
+    text-align: center;
+    width: 20%;
+    border-collapse: collapse;
+}
