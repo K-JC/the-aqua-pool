@@ -11,8 +11,6 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>The Aqua Pool</title>
 </head>
-
-<b>
     <header>
         <a href="index.html">
             <h1 id="logo">The Aqua Pool</h1>
@@ -43,25 +41,25 @@
 
        
         <div class="contact-form">
-            <form action="" method="">
+            <form  method="get" target="_self">
 
                 <label for="fname">First Name:<br></label>
-                <input id="fname" type="text" placeholder="First Name">
+                <input id="fname" type="text" placeholder="First Name" required>
                 <br>
                 <label for="lname"><br>Last Name:<br></label>
-                <input id="lname" type="text" placeholder="Last Name">
+                <input id="lname" type="text" placeholder="Last Name" required>
                 <br>
                 <label for="email"><br>Email:<br></label>
-                <input id="email" type="email" placeholder="name@email.co.uk">
+                <input id="email" type="email" placeholder="name@email.co.uk" required>
                 <br>
                 <label for="phone-no"><br>Phone Number:<br></label>
-                <input id="phone-no" type="text" placeholder="10 Digits">
+                <input id="phone-no" type="text" placeholder="10 Digits" required>
                 <br>
                 <label for="message"><br>Message:<br></label>
-                <textarea name="message" rows="7" cols="50" placeholder="Enter Message Here..." maxlength="10"></textarea>
+                <textarea name="message" id="message" rows="9" cols="44" placeholder="Enter Message Here..." maxlength="10" required ></textarea>
                 <br>
-                <label for="send"><br></label>
-                <input id="send" type="submit" value="Send">
+                <div id="button"><label for="send"><br></label>
+                <input id="send" type="submit" value="Send"></div>
             </form>
         </div>
 

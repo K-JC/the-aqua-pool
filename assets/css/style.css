@@ -249,6 +249,11 @@ p {
     text-align: center;
 }
 
+p {
+    text-align: center;
+    font-size: 110%;
+}
+
 /*join us form*/
 
 .container {
@@ -302,6 +307,7 @@ input[type=submit] {
     margin-left: 150px;
     border-radius: 4px;
     width: 30%;
+    border: 3px solid #fff;
 }
 
 input[type=submit]:hover{
@@ -319,7 +325,7 @@ input[type=submit]:hover{
 }
 
 .contact-form {
-    height: 620px;
+    height: 700px;
     width: 35%;
     top: 50%;
     left: 50%;
@@ -338,11 +344,9 @@ input[type=submit]:hover{
 textarea {
     font-size: 110%;
     max-width: 450px;
-    max-height: 250px;
+    max-height: 280px;
 }
 
-input[type=submit] {
-
-
-
+#button {
+    position: relative;
 }
