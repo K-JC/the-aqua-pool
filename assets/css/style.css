@@ -72,25 +72,25 @@ h2 {
 
 /*pool details*/
 
-#aqua-center {
+#aqua-pool {
     text-align: center;
     margin-top: 80px;
 }
 
-#aqua-center  h2 {
+#aqua-pool  h2 {
     font-size: 190%;
 }
 
-#benefits-center {
+#benefits {
     text-align: center;
     margin-top: 60px;
 }
 
-#benefits-center h2 {
+#benefits h2 {
     font-size: 190%;
 }
 
-.benefits-left {
+.benefits-info {
     margin-left: 50px;
     text-align: left;
     line-height: 25px;
@@ -99,7 +99,7 @@ h2 {
     margin-bottom: 60px;
 }
 
-.aqua-left {
+.aqua-info {
     margin-left: 50px;
     text-align: left;
     line-height: 25px;
@@ -161,18 +161,21 @@ h2 {
 /*timetable*/
 
 table {
-    width: 100%;
+    width: 90%;
     margin-top: 50px;
     margin-bottom: 30px;
+    margin-left: 60px;
+    left: 50%;
+    top: 50%;
     font-size: 110%;
     text-align: center;
     color: #080101;
+    border-radius: 50px;
 }
 
 table, th, tr, td {
     border: 1px solid black;
     border-collapse: collapse;
-    background-color: #fff;
     height: 80px;
 }
 
@@ -185,17 +188,20 @@ table, th, tr, td {
 th {
     text-transform: uppercase;
     font-weight: bold;
-    background-color: lightskyblue;
+    background-color: #0D039B;
+    color: #fff;
+    font-size: 105%;
 }
 
 .bold {
     text-transform: uppercase;
     font-weight: bold;
-    background-color: lightskyblue;
+    background-color: #0D039B;
+    font-size: 105%;
 }
 
 td:hover {
-    background-color: aqua;
+    background-color:rgb(0, 163, 251);
 }
 
 /*price list*/
@@ -214,18 +220,27 @@ td:hover {
     text-align: center;
 }
 
+p {
+    font-size: 110%;
+}
 .price-table {
     text-align: center;
-    width: 15%;
+    width: 25%;
+    background-color: #0D039B;
+    color: #fff
 }
 
 #table-price-box {
-    height: 80px;
-    width: 100%;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    height: 200px;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+   margin-left: 300px;
+   margin-top: 100px;
    font-size: 110%;
 }
+
+/*join us title*/
 
 #join-us {
     font-size: 190%;
@@ -234,4 +249,67 @@ td:hover {
     text-align: center;
 }
 
+/*join us form*/
 
+.container {
+    height: 430px;
+    width: 35%;
+    top: 50%;
+    left: 50%;
+   margin-left: 380px;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   font-size: 110%;
+   text-align: left;
+   background-color: #0D039B;
+   color: #fff;
+   padding: 30px;
+   border-radius: 40px;
+}
+
+label {
+    font-size: 110%;
+
+}
+
+input {
+padding: -1px;
+}
+
+input[type=text] {
+    font-size: 110%;
+    background-color: aliceblue;
+    width: 90%;
+}
+
+input[type=email] {
+    font-size: 110%;
+    background-color: aliceblue;
+    width: 90%;
+}
+
+input[type=password] {
+    font-size: 110%;
+    background-color: aliceblue;
+    width: 90%;
+}
+
+input[type=submit] {
+    background-color: #0D039B;
+    color: #fff;
+    font-size: 120%;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 150px;
+    border-radius: 4px;
+    width: 30%;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(0, 163, 251);
+    size: 10px;
+}
+
+ /*contact us*/
+
+ 
