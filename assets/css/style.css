@@ -324,10 +324,10 @@ input[type=submit]:hover{
 
  /*contact us*/
 
- #pool-3 {
-    height: 450px;
+ #phone {
     width: 100%;
-    background: url('../images/pool-3.jpg') no-repeat center;
+    height: 450px;
+    background: url('../images/phone.jpg') no-repeat center center;
     background-size: cover;
 }
 
