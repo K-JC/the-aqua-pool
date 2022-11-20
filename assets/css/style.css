@@ -245,7 +245,7 @@ p {
 #join-us {
     font-size: 190%;
     margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     text-align: center;
 }
 
@@ -259,8 +259,6 @@ p {
     margin-left: 19%;
     list-style-position: inside;
     font-size: 110%;
-    
-
 }
 
 /*join us form*/
@@ -333,6 +331,20 @@ input[type=submit]:hover{
     background-size: cover;
 }
 
+#contact-us {
+    font-size: 190%;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#in-touch {
+    text-align: center;
+    font-size: 115%;
+    margin-top: 60px;
+    margin-bottom: -60px;
+}
+
 .contact-form {
     height: 700px;
     width: 35%;
@@ -359,3 +371,5 @@ textarea {
 #button {
     position: relative;
 }
+
+/*thank you page message*/
