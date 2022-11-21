@@ -213,16 +213,13 @@ td:hover {
     background-size: cover;
 }
 
-#price-heading {
+.price-heading {
     font-size: 190%;
     margin-top: 80px;
     margin-bottom: 80px;
     text-align: center;
 }
 
-p {
-    font-size: 110%;
-}
 .price-table {
     text-align: center;
     width: 25%;
@@ -242,25 +239,18 @@ p {
 
 /*join us title*/
 
-#join-us {
-    font-size: 190%;
-    margin-top: 80px;
-    margin-bottom: 40px;
-    text-align: center;
-}
 
-p {
+#invite {
     text-align: center;
-    font-size: 110%;
+    font-size: 120%;
 }
 
 #membership {
     text-align: left;
-    margin-left: 19%;
+    margin-left: 16%;
     list-style-position: inside;
-    font-size: 110%;
+    font-size: 120%;
 }
-
 /*join us form*/
 
 .container {
@@ -333,16 +323,16 @@ input[type=submit]:hover{
 
 #contact-us {
     font-size: 190%;
-    margin-top: 60px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
 #in-touch {
     text-align: center;
-    font-size: 115%;
-    margin-top: 60px;
-    margin-bottom: -60px;
+    font-size: 150%;
+    margin-top: 50px;
+    margin-bottom: -50px;
 }
 
 .contact-form {
@@ -373,3 +363,11 @@ textarea {
 }
 
 /*thank you page message*/
+
+
+#message-thanks {
+    font-size: 150%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
