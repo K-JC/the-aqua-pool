@@ -27,14 +27,14 @@ h2 {
     color: #0D039B;
 }
 
-/*navagation links*/
-
 #logo {
     float: left;
     font-size: 280%;
     line-height: 75px;
     margin-left: 30px;
 }
+
+/*navagation links*/
 
 #nav-bar {
     letter-spacing: 1px;
@@ -45,7 +45,10 @@ h2 {
 #nav-bar li {
     float: right;
     list-style-type: none;
-    margin-right: 40px;
+    margin-right: 35px;
+    font-weight: 700;
+    word-spacing: -1px;
+    line-height: 85px;
 }
 
 #nav-bar a {
@@ -239,7 +242,6 @@ td:hover {
 
 /*join us title*/
 
-
 #invite {
     text-align: center;
     font-size: 120%;
@@ -251,6 +253,7 @@ td:hover {
     list-style-position: inside;
     font-size: 120%;
 }
+
 /*join us form*/
 
 .container {
@@ -271,10 +274,6 @@ td:hover {
 
 label {
     font-size: 110%;
-}
-
-input {
-padding: -1px;
 }
 
 input[type=text] {
@@ -309,7 +308,6 @@ input[type=submit] {
 
 input[type=submit]:hover{
     background-color: rgb(0, 163, 251);
-    size: 10px;
 }
 
  /*contact us*/
@@ -364,10 +362,20 @@ textarea {
 
 /*thank you page message*/
 
-
 #message-thanks {
     font-size: 150%;
     margin-top: 100px;
     margin-bottom: 100px;
     text-align: center;
+}
+
+/*media queries*/
+
+/*larger to medium screen sizes from 1200px*/
+@media screen and (max-width: 1200px) {
+    #nav-bar {
+      text-align: end;
+      
+    }
+    
 }
