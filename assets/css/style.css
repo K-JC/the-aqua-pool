@@ -373,9 +373,61 @@ textarea {
 
 /*larger to medium screen sizes from 1200px*/
 @media screen and (max-width: 1200px) {
-    #nav-bar {
-      text-align: end;
-      
+  
+}
+
+/*medium to small screen sizes from 950px*/
+@media screen and (max-width: 950px) {
+    #table-title {
+        margin-left: 10px ;
     }
-    
+
+    .bold {
+        font-size: 90%;
+        padding: 5px;
+    }
+
+    #timetable-content { 
+        margin-left: 50px;
+    }
+
+    td {
+        font-size: 90%;
+    }
+
+    #table-price-box {
+       margin-left: 25%;
+    } 
+
+    .price-table {
+        font-size: 90%;
+        padding: 4px;
+    }
+
+  #invite {
+    text-align: center;
+  }
+  #membership {
+    text-align: left;
+    margin-left: 4%;
+  }
+
+.container {
+    margin-left: 30%;
+}
+input[type=submit] {
+    margin-left: 34%;
+}
+
+.contact-form {
+    margin-left: 30%;
+}
+
+textarea {
+max-width: 320px;
+max-height: 300px;
+}
+
+
+
 }
