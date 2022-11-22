@@ -196,7 +196,7 @@ th {
     font-size: 105%;
 }
 
-.bold {
+.bold-title {
     text-transform: uppercase;
     font-weight: bold;
     background-color: #0D039B;
@@ -387,7 +387,7 @@ textarea {
         margin-left: 10px ;
     }
 
-    .bold {
+    .bold-title {
         font-size: 90%;
         padding: 5px;
     }
@@ -489,7 +489,7 @@ max-height: 300px;
     margin-bottom: 5px;
     margin-left: 0;
 }
-.bold {
+.bold-title {
     padding: 1px;
     font-size: 50%;
 }
@@ -500,11 +500,11 @@ td {
 }
 
 .price-table {
-    font-size: 150%;
+    font-size: 110%;
 }
 
 #swim {
-    font-size: 150%;
+    font-size: 110%;
 }
 
 #table-price-box {
