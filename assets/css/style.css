@@ -378,6 +378,11 @@ textarea {
 
 /*medium to small screen sizes from 950px*/
 @media screen and (max-width: 950px) {
+
+    iframe {
+    width: 100%;
+    }
+
     #table-title {
         margin-left: 10px ;
     }
@@ -427,7 +432,6 @@ textarea {
 max-width: 320px;
 max-height: 300px;
 }
-
-
-
 }
+
+/*small screen sizes from 400px*/
