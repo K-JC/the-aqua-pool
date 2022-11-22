@@ -371,11 +371,6 @@ textarea {
 
 /*media queries*/
 
-/*larger to medium screen sizes from 1200px*/
-@media screen and (max-width: 1200px) {
-  
-}
-
 /*medium to small screen sizes from 950px and down*/
 @media screen and (max-width: 950px) {
 
