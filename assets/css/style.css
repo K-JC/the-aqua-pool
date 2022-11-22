@@ -459,9 +459,11 @@ max-height: 300px;
     text-align: left;
     margin-left: 20px;
  }
+
  #benefits {
     font-size: 90%;
  }
+
  .benefits-info {
     text-align: left;
     margin-left: 20px;
@@ -471,11 +473,70 @@ max-height: 300px;
     text-align: center;
     font-size: 100%;
  }
+
  .opening-times {
     margin-left: 118px;
  }
+
 .opening-times  p {
     text-align: center;
     font-size: 100%;
 }
+
+#timetable-content {
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 0;
 }
+.bold {
+    padding: 1px;
+    font-size: 50%;
+}
+
+td {
+    padding: 1px;
+    font-size: 66.6%;
+}
+
+.price-table {
+    font-size: 150%;
+}
+
+#swim {
+    font-size: 150%;
+}
+
+#table-price-box {
+    margin-left: 35px;
+    width: 80%;
+}
+ 
+#invite {
+    text-align: left;
+    margin-left: 20px;
+}
+
+#membership {
+    margin-left: 20px;
+}
+
+.container {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 80%
+}
+
+#in-touch {
+    text-align: center;
+    margin-left: 5px;
+    font-size: 120%;
+}
+.contact-form {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 80%;
+}
+}
+
+
