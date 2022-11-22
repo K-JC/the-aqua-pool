@@ -376,7 +376,7 @@ textarea {
   
 }
 
-/*medium to small screen sizes from 950px*/
+/*medium to small screen sizes from 950px and down*/
 @media screen and (max-width: 950px) {
 
     iframe {
@@ -434,4 +434,48 @@ max-height: 300px;
 }
 }
 
-/*small screen sizes from 400px*/
+/*small screen sizes from 400*/
+@media screen and (max-width: 400px) {
+   
+    #logo {
+        margin-left: 50px;
+        padding: 5px;
+        font-size: 210%;
+    }
+
+  #nav-bar a {
+        color: #fff;
+        margin-left: -20px; 
+        font-size: 75%;
+        position: relative;
+        top: 280px;
+    }
+ 
+ #aqua-pool {
+    font-size: 90%;
+ }
+
+ .aqua-info {
+    text-align: left;
+    margin-left: 20px;
+ }
+ #benefits {
+    font-size: 90%;
+ }
+ .benefits-info {
+    text-align: left;
+    margin-left: 20px;
+ } 
+ 
+ .opening-times, .social-links {
+    text-align: center;
+    font-size: 100%;
+ }
+ .opening-times {
+    margin-left: 118px;
+ }
+.opening-times  p {
+    text-align: center;
+    font-size: 100%;
+}
+}
