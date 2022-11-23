@@ -371,12 +371,62 @@ textarea {
 
 /*media queries*/
 
-/*medium to small screen sizes from 950px and down*/
-@media screen and (max-width: 950px) {
+/*large to medium screen sizes from 780px and down*/
+@media screen and (max-width: 1200px) {
+    #logo {}
+    #nav-bar a {}
+}
+/*medium to small screen sizes from 780px and down*/
+@media screen and (max-width: 780px) {
+  
+    #logo {
+        left: -15px;
+        position: relative;
+        font-size: 200%;
+        line-height: 75px;
+    }
 
+    #nav-bar a {
+        color: #fff;
+        margin-left: -20px; 
+        font-size: 90%;
+        line-height: 75px;
+        right: -30px;
+        }
+      
     iframe {
     width: 100%;
     }
+
+    #aqua-pool {
+        font-size: 110%;
+     }
+    
+     .aqua-info {
+        text-align: left;
+        margin-left: 30px;
+        font-size: 120%;
+     }
+    
+     #benefits {
+        font-size: 110%;
+     }
+    
+     .benefits-info {
+        text-align: left;
+        margin-left: 30px;
+        font-size: 120%
+     } 
+
+     .opening-times, .social-links {
+        text-align: center;
+        font-size: 100%;
+     }
+
+.opening-times  p {
+    text-align: center;
+    font-size: 110%;
+}
 
     #table-title {
         margin-left: 10px ;
@@ -388,7 +438,7 @@ textarea {
     }
 
     #timetable-content { 
-        margin-left: 50px;
+        margin-left: 35px;
     }
 
     td {
@@ -398,15 +448,17 @@ textarea {
     #table-price-box {
        margin-left: 25%;
     } 
-
+    
     .price-table {
         font-size: 90%;
         padding: 4px;
     }
 
   #invite {
-    text-align: center;
-  }
+    text-align: left;
+    margin-left: 4%; 
+    margin-right: 4%;
+}
   #membership {
     text-align: left;
     margin-left: 4%;
@@ -416,7 +468,8 @@ textarea {
     margin-left: 30%;
 }
 input[type=submit] {
-    margin-left: 34%;
+    margin-left: 30%;
+    width: 40%;
 }
 
 .contact-form {
@@ -424,8 +477,13 @@ input[type=submit] {
 }
 
 textarea {
-max-width: 320px;
+max-width: 260px;
 max-height: 300px;
+}
+
+#message-thanks {
+    font-size: 180%;
+    margin-bottom: 295px;
 }
 }
 
@@ -433,21 +491,22 @@ max-height: 300px;
 @media screen and (max-width: 400px) {
    
     #logo {
-        margin-left: 50px;
+        margin-left: 70px;
         padding: 5px;
         font-size: 210%;
     }
 
   #nav-bar a {
         color: #fff;
-        margin-left: -20px; 
+        margin-left: -7px; 
         font-size: 75%;
         position: relative;
         top: 280px;
+        right: -10px;
     }
  
  #aqua-pool {
-    font-size: 90%;
+    font-size: 80%;
  }
 
  .aqua-info {
@@ -456,7 +515,7 @@ max-height: 300px;
  }
 
  #benefits {
-    font-size: 90%;
+    font-size: 80%;
  }
 
  .benefits-info {
@@ -470,12 +529,13 @@ max-height: 300px;
  }
 
  .opening-times {
-    margin-left: 118px;
+    margin-left: 130px;
  }
 
 .opening-times  p {
-    text-align: center;
+    text-align: left;
     font-size: 100%;
+    margin-left: 10px;
 }
 
 #timetable-content {
@@ -484,6 +544,7 @@ max-height: 300px;
     margin-bottom: 5px;
     margin-left: 0;
 }
+
 .bold-title {
     padding: 1px;
     font-size: 50%;
@@ -495,11 +556,11 @@ td {
 }
 
 .price-table {
-    font-size: 110%;
+    font-size: 100%;
 }
 
 #swim {
-    font-size: 110%;
+    font-size: 100%;
 }
 
 #table-price-box {
@@ -523,10 +584,16 @@ td {
 }
 
 #in-touch {
-    text-align: center;
+    text-align: left;
     margin-left: 5px;
-    font-size: 120%;
+    font-size: 130%;  
 }
+
+textarea {
+    max-width: 310px;
+    max-height: 300px;
+}
+
 .contact-form {
     margin-left: 5px;
     margin-right: 5px;
