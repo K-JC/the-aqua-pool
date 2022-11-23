@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Open Sans, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #080101;
     background-color: aliceblue;
@@ -16,13 +16,13 @@ body {
 /*logo and heading */
 
 h1 {
-    font-family: playfair display, sans-serif;
+    font-family: 'playfair display', sans-serif;
     letter-spacing: 4px;
     color: #fff;
 }
 
 h2 {
-    font-family: playfair display, sans-serif;
+    font-family: 'playfair display', sans-serif;
     letter-spacing: 4px;
     color: #0D039B;
 }
@@ -143,6 +143,10 @@ h2 {
     width: 100%;
 }
 
+iframe {
+    pointer-events: none;
+}
+
 .footer {
     height: 100px;
     width: 100%;
@@ -212,10 +216,10 @@ td:hover {
 
 /*price list*/
 
-#woman-pool-1 {
+#lady-swim {
     height: 450px;
     width: 100%;
-    background: url('../images/women-pool-1.jpg') no-repeat center;
+    background: url('../images/lady-swim.jpg') no-repeat center;
     background-size: cover;
 }
 
@@ -421,22 +425,21 @@ textarea {
     }
 }
 
-/*medium to small screen sizes from 780px and down*/
-@media screen and (max-width: 780px) {
+/*medium to small screen sizes from 900px and down*/
+@media screen and (max-width: 900px) {
 
     #logo {
         left: -15px;
         position: relative;
-        font-size: 200%;
         line-height: 75px;
     }
 
     #nav-bar a {
         color: #fff;
-        margin-left: -20px;
-        font-size: 90%;
-        line-height: 75px;
-        right: -30px;
+        position: relative;
+        top: 350px;
+        right: 200px;
+        line-height: 25px;
     }
 
     iframe {
@@ -450,7 +453,7 @@ textarea {
     .aqua-info {
         text-align: left;
         margin-left: 30px;
-        font-size: 120%;
+        font-size: 110%;
     }
 
     #benefits {
@@ -460,7 +463,7 @@ textarea {
     .benefits-info {
         text-align: left;
         margin-left: 30px;
-        font-size: 120%
+        font-size: 110%
     }
 
     .opening-times,
@@ -502,13 +505,15 @@ textarea {
 
     #invite {
         text-align: left;
-        margin-left: 4%;
-        margin-right: 4%;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 110%;
     }
 
     #membership {
         text-align: left;
-        margin-left: 4%;
+        margin-left: 10%;
+        font-size: 110%;
     }
 
     .container {
@@ -518,6 +523,10 @@ textarea {
     input[type=submit] {
         margin-left: 30%;
         width: 40%;
+    }
+
+    #in-touch {
+        font-size: 110%;
     }
 
     .contact-form {
@@ -530,36 +539,41 @@ textarea {
     }
 
     #message-thanks {
-        font-size: 180%;
+        font-size: 150%;
         margin-bottom: 295px;
     }
 }
 
-/*small screen sizes from 400*/
-@media screen and (max-width: 400px) {
+/*small screen sizes from 360*/
+@media screen and (max-width: 360px) {
+
+    #hero-image {
+         height:250px
+    }
 
     #logo {
         margin-left: 70px;
-        padding: 5px;
-        font-size: 210%;
+        font-size: 180%;
+        position: relative;
+        bottom: 10px;   
     }
 
     #nav-bar a {
         color: #fff;
-        margin-left: -7px;
-        font-size: 75%;
-        position: relative;
-        top: 280px;
-        right: -10px;
+        font-size: 51%;
+        line-height: 15px;
+        right: -20px;
+        top: 100px;
     }
 
     #aqua-pool {
         font-size: 80%;
     }
-
+    
     .aqua-info {
         text-align: left;
         margin-left: 20px;
+        font-size: 130%;
     }
 
     #benefits {
@@ -569,47 +583,63 @@ textarea {
     .benefits-info {
         text-align: left;
         margin-left: 20px;
+        font-size: 130%;
     }
 
     .opening-times,
     .social-links {
         text-align: center;
-        font-size: 100%;
+        font-size: 70%;
     }
 
     .opening-times {
-        margin-left: 130px;
+        margin-left: 110px;
+        font-size: 70%;
     }
 
     .opening-times p {
         text-align: left;
-        font-size: 100%;
+        font-size: 105%;
         margin-left: 10px;
     }
 
+    .footer {
+        font-size: 110%;
+        padding-top: 30px;
+        
+    }
+
+    #lady-swim-1 {
+        height:250px
+   }
+
     #timetable-content {
-        width: 80%;
+        width: 40%;
         margin-top: 5px;
         margin-bottom: 5px;
         margin-left: 0;
     }
 
     .bold-title {
-        padding: 1px;
+        padding: 0;
         font-size: 50%;
     }
 
     td {
-        padding: 1px;
-        font-size: 66.6%;
+        padding: 0;
+        font-size: 61.8%;
     }
 
     .price-table {
-        font-size: 100%;
+        font-size: 70%;
     }
 
+    #lady-swim {
+        height: 250px;
+   }
+
     #swim {
-        font-size: 100%;
+        font-size: 70%;
     }
 
     #table-price-box {
@@ -620,32 +650,66 @@ textarea {
     #invite {
         text-align: left;
         margin-left: 20px;
+        font-size: 100%;
     }
 
     #membership {
         margin-left: 20px;
+        font-size: 100%;
     }
 
     .container {
         margin-left: 10px;
         margin-right: 10px;
-        width: 80%
+        width: 75%
+    }
+
+    label {
+        font-size: 90%;
+    }
+    
+    input[type=text] {
+        font-size: 90%;
+    }
+    
+    input[type=email] {
+        font-size: 90%;
+    }
+    
+    input[type=password] {
+        font-size: 90%;
+    }
+    
+    input[type=submit] {
+        font-size: 90%;
+        margin-left: 75px;
+    }
+
+    #phone {
+        height: 250px;
     }
 
     #in-touch {
         text-align: left;
         margin-left: 5px;
-        font-size: 130%;
+        font-size: 100%;
     }
 
     textarea {
-        max-width: 310px;
+        max-width: 240px;
         max-height: 300px;
     }
 
     .contact-form {
-        margin-left: 5px;
+        margin-left: 20px;
         margin-right: 5px;
-        width: 80%;
+        width: 70%;
     }
+
+    #message-thanks {
+        font-size: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: left;
+}
 }
