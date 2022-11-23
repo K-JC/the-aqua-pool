@@ -382,32 +382,33 @@ textarea {
 @media screen and (max-width: 1600px) {
 
     #logo {
-        font-size: 280%;
+        font-size: 200%;
     }
 
     #nav-bar a {
-        font-size: 130%;
+        font-size: 110%;
 
     }
 
     #aqua-pool,
     #benefits {
-        font-size: 130%;
+        font-size: 110%;
         font-weight: 500;
     }
 
     .aqua-info,
     .benefits-info {
         margin-left: 60px;
+        font-size: 90%;
 
     }
 
     .opening-times {
-        font-size: 150%;
+        font-size: 110%;
     }
 
     .social-links {
-        font-size: 150%;
+        font-size: 110%;
     }
 
     iframe {
@@ -415,34 +416,34 @@ textarea {
     }
 
     #table-price-box {
-        margin-left: 450px;
+        margin-left: 300px;
     }
 
     #invite {
-        font-size: 150%;
-        margin-left: 200px;
+        font-size: 110%;
+        margin-left: 100px;
     }
-
+    
     #membership {
-        font-size: 150%;
-        margin-left: 360px;
+        font-size: 110%;
+        margin-left: 290px;
     }
 
     .container {
-        margin-left: 500px;
+        margin-left: 340px;
 
     }
 
     input[type=submit] {
-        width: 40%;
+        width: 30%;
     }
 
     .contact-form {
-        margin-left: 500px;
+        margin-left: 380px;
     }
 
     textarea {
-        max-width: 550px;
+        max-width: 410px;
     }
 }
 
