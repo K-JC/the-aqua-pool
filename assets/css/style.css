@@ -421,16 +421,16 @@ textarea {
 
     #invite {
         font-size: 110%;
-        margin-left: 100px;
+        margin-left: 120px;
     }
     
     #membership {
         font-size: 110%;
-        margin-left: 290px;
+        margin-left: 360px;
     }
 
     .container {
-        margin-left: 340px;
+        margin-left: 450px;
 
     }
 
@@ -439,7 +439,7 @@ textarea {
     }
 
     .contact-form {
-        margin-left: 380px;
+        margin-left: 450px;
     }
 
     textarea {
