@@ -378,6 +378,74 @@ textarea {
 
 /*media queries*/
 
+/*desktop screen size 1600px*/
+@media screen and (max-width: 1600px) {
+
+    #logo {
+        font-size: 280%;
+    }
+
+    #nav-bar a {
+        font-size: 130%;
+
+    }
+
+    #aqua-pool,
+    #benefits {
+        font-size: 130%;
+        font-weight: 500;
+    }
+
+    .aqua-info,
+    .benefits-info {
+        margin-left: 60px;
+
+    }
+
+    .opening-times {
+        font-size: 150%;
+    }
+
+    .social-links {
+        font-size: 150%;
+    }
+
+    iframe {
+        width: 1600px
+    }
+
+    #table-price-box {
+        margin-left: 450px;
+    }
+
+    #invite {
+        font-size: 150%;
+        margin-left: 200px;
+    }
+
+    #membership {
+        font-size: 150%;
+        margin-left: 360px;
+    }
+
+    .container {
+        margin-left: 500px;
+
+    }
+
+    input[type=submit] {
+        width: 40%;
+    }
+
+    .contact-form {
+        margin-left: 500px;
+    }
+
+    textarea {
+        max-width: 550px;
+    }
+}
+
 /*large to medium screen sizes from 1200px and down*/
 @media screen and (max-width: 1200px) {
 
@@ -425,8 +493,8 @@ textarea {
     }
 }
 
-/*medium to small screen sizes from 900px and down*/
-@media screen and (max-width: 900px) {
+/*medium to small screen sizes from 768px and down*/
+@media screen and (max-width: 768px) {
 
     #logo {
         left: -15px;
@@ -438,8 +506,10 @@ textarea {
         color: #fff;
         position: relative;
         top: 350px;
-        right: 200px;
-        line-height: 25px;
+        right: 190px;
+        line-height: 15px;
+        font-size: 60%;
+
     }
 
     iframe {
@@ -544,32 +614,32 @@ textarea {
     }
 }
 
-/*small screen sizes from 360*/
-@media screen and (max-width: 360px) {
+/*small screen sizes from 320*/
+@media screen and (max-width: 320px) {
 
     #hero-image {
-         height:250px
+        height: 250px
     }
 
     #logo {
         margin-left: 70px;
-        font-size: 180%;
+        font-size: 130%;
         position: relative;
-        bottom: 10px;   
+        bottom: 10px;
     }
 
     #nav-bar a {
         color: #fff;
-        font-size: 51%;
+        font-size: 30%;
         line-height: 15px;
-        right: -20px;
+        right: -10px;
         top: 100px;
     }
 
     #aqua-pool {
-        font-size: 80%;
+        font-size: 60%;
     }
-    
+
     .aqua-info {
         text-align: left;
         margin-left: 20px;
@@ -577,7 +647,7 @@ textarea {
     }
 
     #benefits {
-        font-size: 80%;
+        font-size: 60%;
     }
 
     .benefits-info {
@@ -589,40 +659,42 @@ textarea {
     .opening-times,
     .social-links {
         text-align: center;
-        font-size: 70%;
+        font-size: 80%;
+        margin-left: -10px;
     }
 
     .opening-times {
-        margin-left: 110px;
-        font-size: 70%;
+        margin-left: 50px;
+        font-size: 80%;
+        text-align: center;
     }
 
     .opening-times p {
         text-align: left;
-        font-size: 105%;
+        font-size: 110%;
         margin-left: 10px;
     }
 
     .footer {
         font-size: 110%;
         padding-top: 30px;
-        
+
     }
 
     #lady-swim-1 {
-        height:250px
-   }
+        height: 250px
+    }
 
     #timetable-content {
-        width: 40%;
-        margin-top: 5px;
-        margin-bottom: 5px;
+        width: 100%;
+        margin-top: 2px;
+        margin-bottom: 2px;
         margin-left: 0;
     }
 
     .bold-title {
         padding: 0;
-        font-size: 50%;
+        font-size: 60%;
     }
 
     td {
@@ -636,7 +708,7 @@ textarea {
 
     #lady-swim {
         height: 250px;
-   }
+    }
 
     #swim {
         font-size: 70%;
@@ -655,7 +727,7 @@ textarea {
 
     #membership {
         margin-left: 20px;
-        font-size: 100%;
+        font-size: 95%;
     }
 
     .container {
@@ -667,19 +739,19 @@ textarea {
     label {
         font-size: 90%;
     }
-    
+
     input[type=text] {
         font-size: 90%;
     }
-    
+
     input[type=email] {
         font-size: 90%;
     }
-    
+
     input[type=password] {
         font-size: 90%;
     }
-    
+
     input[type=submit] {
         font-size: 90%;
         margin-left: 75px;
@@ -696,7 +768,7 @@ textarea {
     }
 
     textarea {
-        max-width: 240px;
+        max-width: 215px;
         max-height: 300px;
     }
 
@@ -707,9 +779,9 @@ textarea {
     }
 
     #message-thanks {
-        font-size: 100%;
+        font-size: 90%;
         margin-left: 20px;
         margin-right: 20px;
         text-align: left;
-}
+    }
 }
