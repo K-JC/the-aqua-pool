@@ -69,7 +69,7 @@ h2 {
 #hero-image {
     height: 450px;
     width: 100%;
-    background: url('../images/hero-image.jpg') no-repeat center;
+    background: url('../images/hero-image.webp') no-repeat center;
     background-size: cover;
 }
 
@@ -161,7 +161,7 @@ iframe {
 #lady-swim-1 {
     height: 450px;
     width: 100%;
-    background: url('../images/lady-swim-1.jpg') no-repeat center;
+    background: url('../images/lady-swim-1.webp') no-repeat center;
     background-size: cover;
 }
 
@@ -219,7 +219,7 @@ td:hover {
 #lady-swim {
     height: 450px;
     width: 100%;
-    background: url('../images/lady-swim.jpg') no-repeat center;
+    background: url('../images/lady-swim.webp') no-repeat center;
     background-size: cover;
 }
 
@@ -322,7 +322,7 @@ input[type=submit]:hover {
 #phone {
     width: 100%;
     height: 450px;
-    background: url('../images/phone.jpg') no-repeat center center;
+    background: url('../images/phone.webp') no-repeat center center;
     background-size: cover;
 }
 
