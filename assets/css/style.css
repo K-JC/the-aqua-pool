@@ -323,7 +323,7 @@ input[type=submit]:hover {
 #pool-water {
     width: 100%;
     height: 450px;
-    background: url('../images/pool-water.webp') no-repeat center center;
+    background: url('../images/pool-water.webp') no-repeat center;
     background-size: cover;
 }
 
@@ -767,4 +767,10 @@ textarea {
         margin-right: 20px;
         text-align: left;
     }
+
+    #pool-water {
+        height: 250px;
+    }
+
+
 }
