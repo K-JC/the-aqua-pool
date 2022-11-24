@@ -401,8 +401,18 @@ textarea {
         margin-left: 180px;
     }
 
-    #membership {
-        margin-left: 23%;
+    #invite {
+        margin-left: 100px;
+        text-align: left;
+    }
+    
+    #membership  {
+       margin-left: 110px;
+ }
+      
+    #in-touch {
+        text-align: left;
+        margin-left: 450px;
     }
 
     .container {
@@ -413,6 +423,19 @@ textarea {
 
 /*large to medium screen sizes from 1200px and down*/
 @media screen and (max-width: 1200px) {
+
+    #logo {
+        left: -15px;
+        position: relative;
+        font-size: 180%;
+    }
+
+    #nav-bar a {
+        color: #fff;
+        position: relative;
+        right: 1px;
+        font-size: 60%;
+    }
 
     iframe {
         width: 100%;
@@ -442,12 +465,17 @@ textarea {
         width: 40%;
     }
 
+    #in-touch {
+            margin-left: 100px;
+            text-align: center;
+        }
+
     .contact-form {
         margin-left: 30%;
     }
 
     textarea {
-        max-width: 350px;
+        max-width: 280px;
         max-height: 300px;
     }
 
@@ -463,18 +491,15 @@ textarea {
 
     #logo {
         left: -15px;
-        position: relative;
-        line-height: 75px;
+        position: absolute;
+        font-size: 180%;
     }
 
     #nav-bar a {
-        color: #fff;
+        right: -20px;
         position: relative;
-        top: 350px;
-        right: 190px;
-        line-height: 15px;
-        font-size: 60%;
-
+        top: 50px;
+        font-size: 43%;
     }
 
     iframe {
@@ -500,16 +525,20 @@ textarea {
         margin-left: 30px;
         font-size: 110%
     }
-
+    
     .opening-times,
     .social-links {
         text-align: center;
-        font-size: 100%;
+        font-size: 80%;
+        float: right;
+        margin-left: 10px;
     }
 
     .opening-times p {
         text-align: center;
-        font-size: 110%;
+        font-size: 90%;
+      
+
     }
 
     #table-title {
@@ -517,16 +546,20 @@ textarea {
     }
 
     .bold-title {
-        font-size: 90%;
-        padding: 5px;
+        font-size: 40%;
+        padding: 0px;
     }
 
     #timetable-content {
-        margin-left: 35px;
-    }
+        margin-top: 2px;
+        margin-bottom: 2px;
+        width: 100%;
+        margin-left: 0;
+        }
+    
 
     td {
-        font-size: 90%;
+        font-size: 50%;
     }
 
     #table-price-box {
@@ -569,7 +602,7 @@ textarea {
     }
 
     textarea {
-        max-width: 260px;
+        max-width: 150px;
         max-height: 300px;
     }
 
@@ -594,9 +627,7 @@ textarea {
     }
 
     #nav-bar a {
-        color: #fff;
         font-size: 30%;
-        line-height: 15px;
         right: -10px;
         top: 100px;
     }
@@ -733,7 +764,7 @@ textarea {
     }
 
     textarea {
-        max-width: 215px;
+        max-width: 200px;
         max-height: 300px;
     }
 
