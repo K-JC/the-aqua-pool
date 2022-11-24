@@ -526,10 +526,10 @@ textarea {
         font-size: 110%
     }
     
-    .opening-times,
+    .opening-times, 
     .social-links {
         text-align: center;
-        font-size: 80%;
+        font-size: 70%;
         float: right;
         margin-left: 10px;
     }
@@ -537,8 +537,6 @@ textarea {
     .opening-times p {
         text-align: center;
         font-size: 90%;
-      
-
     }
 
     #table-title {
@@ -551,13 +549,11 @@ textarea {
     }
 
     #timetable-content {
-        margin-top: 2px;
-        margin-bottom: 2px;
+        margin: 2px 0 2px 0;
         width: 100%;
         margin-left: 0;
         }
     
-
     td {
         font-size: 50%;
     }
@@ -573,8 +569,7 @@ textarea {
 
     #invite {
         text-align: left;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin: 0 10% 0 10%;
         font-size: 110%;
     }
 
@@ -647,7 +642,6 @@ textarea {
     }
 
     .benefits-info {
-        text-align: left;
         margin-left: 20px;
         font-size: 130%;
     }
@@ -657,12 +651,6 @@ textarea {
         text-align: center;
         font-size: 80%;
         margin-left: -10px;
-    }
-
-    .opening-times {
-        margin-left: 65px;
-        font-size: 80%;
-        text-align: center;
     }
 
     .opening-times p {
@@ -683,9 +671,7 @@ textarea {
 
     #timetable-content {
         width: 100%;
-        margin-top: 2px;
-        margin-bottom: 2px;
-        margin-left: 0;
+        margin: 2px 0 2px 0;
     }
 
     .bold-title {
@@ -727,8 +713,7 @@ textarea {
     }
 
     .container {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin: 10px;
         width: 75%
     }
 
@@ -769,8 +754,9 @@ textarea {
     }
 
     .contact-form {
-        margin-left: 20px;
-        margin-right: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
         width: 70%;
     }
 
