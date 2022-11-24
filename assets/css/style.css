@@ -378,6 +378,39 @@ textarea {
 
 /*media queries*/
 
+/*large desktop screens from 1600px*/
+@media screen and (max-width: 1600px) {
+
+    iframe {
+        width: 100%;
+    }
+
+    #table-price-box {
+        margin-left: 440px;
+    }
+
+    .contact-form {
+        margin-left: 480px;
+    }
+    
+    textarea {
+        max-width: 500px;
+    }
+    
+    input[type=submit] {
+        margin-left: 180px;
+    }
+
+    #membership {
+        margin-left: 23%;
+    }
+
+    .container {
+        margin-left: 500px;
+    }
+}
+
+
 /*large to medium screen sizes from 1200px and down*/
 @media screen and (max-width: 1200px) {
 
@@ -391,13 +424,13 @@ textarea {
 
     #invite {
         text-align: left;
-        margin-left: 10%;
+        margin-left: 160px;
         margin-right: 10%;
     }
 
     #membership {
         text-align: left;
-        margin-left: 10%;
+        margin-left: 180px;
     }
 
     .container {
@@ -596,7 +629,7 @@ textarea {
     }
 
     .opening-times {
-        margin-left: 50px;
+        margin-left: 65px;
         font-size: 80%;
         text-align: center;
     }
