@@ -235,17 +235,18 @@ td:hover {
     text-align: center;
     width: 25%;
     background-color: #0D039B;
-    color: #fff
+    color: #fff;
 }
 
 #table-price-box {
     height: 200px;
-    width: 50%;
-    top: 50%;
-    left: 50%;
-    margin-left: 300px;
-    margin-top: 100px;
+    width: 70%;
     font-size: 110%;
+    top: 50%;
+    left: -20%;
+    margin-right: 10px;
+    margin-top: 100px;
+    position: relative;
 }
 
 /*join us title*/
@@ -266,10 +267,10 @@ td:hover {
 
 .container {
     height: 430px;
-    width: 35%;
+    width: 50%;
     top: 50%;
-    left: 50%;
-    margin-left: 380px;
+    left: -15%;
+    margin-left: 10px;
     margin-top: 100px;
     margin-bottom: 100px;
     font-size: 110%;
@@ -278,28 +279,37 @@ td:hover {
     color: #fff;
     padding: 30px;
     border-radius: 40px;
+    position: relative;
 }
 
 label {
     font-size: 110%;
+    left: 80px;
+    position: relative;
 }
 
 input[type=text] {
     font-size: 110%;
     background-color: aliceblue;
-    width: 90%;
+    width: 70%;
+    left: 80px;
+    position: relative;
 }
 
 input[type=email] {
     font-size: 110%;
     background-color: aliceblue;
-    width: 90%;
+    width: 70%;
+    left: 80px;
+    position: relative;
 }
 
 input[type=password] {
     font-size: 110%;
     background-color: aliceblue;
-    width: 90%;
+    width: 70%;
+    left: 80px;
+    position: relative;
 }
 
 input[type=submit] {
@@ -309,9 +319,11 @@ input[type=submit] {
     margin-top: 20px;
     cursor: pointer;
     margin-left: 150px;
+    left: 40px;
     border-radius: 4px;
     width: 30%;
     border: 3px solid #fff;
+    position: relative;
 }
 
 input[type=submit]:hover {
@@ -339,14 +351,16 @@ input[type=submit]:hover {
     font-size: 150%;
     margin-top: 50px;
     margin-bottom: -50px;
+    right: 60px;
+    position: relative;
 }
 
 .contact-form {
-    height: 700px;
-    width: 35%;
+    height: 750px;
+    width: 50%;
     top: 50%;
-    left: 50%;
-    margin-left: 380px;
+    right: 150px;
+    margin-left: 10px;
     margin-top: 100px;
     margin-bottom: 100px;
     font-size: 110%;
@@ -355,17 +369,20 @@ input[type=submit]:hover {
     color: #fff;
     padding: 30px;
     border-radius: 40px;
-    box-sizing: content-box;
+    position: relative;
 }
 
 textarea {
     font-size: 110%;
     max-width: 450px;
     max-height: 280px;
+    left: 80px;
+    position: relative;
 }
 
 #button {
     position: relative;
+    top: 40px;
 }
 
 /*thank you page message*/
@@ -387,21 +404,31 @@ textarea {
     }
 
     #table-price-box {
-        margin-left: 440px;
+       left: 200px;
     }
 
+    .container {
+        right: 200px;
+        height: 550px;
+    }
+
+    input[type=submit] {
+        left: 140px;
+        width: 25%;
+    }
+    
+    #in-touch {
+        left: 30px; 
+        }
+
     .contact-form {
-        margin-left: 480px;
+       left: 380px ;
     }
     
     textarea {
         max-width: 500px;
     }
     
-    input[type=submit] {
-        margin-left: 180px;
-    }
-
     #invite {
         margin-left: 100px;
         text-align: left;
@@ -411,11 +438,6 @@ textarea {
        margin-left: 110px;
  }
       
-    #in-touch {
-        text-align: left;
-        margin-left: 450px;
-    }
-
     .container {
         margin-left: 500px;
     }
@@ -428,7 +450,7 @@ textarea {
     #logo {
         left: -15px;
         position: relative;
-        font-size: 180%;
+        font-size: 200%;
     }
 
     #nav-bar a {
@@ -443,7 +465,8 @@ textarea {
     }
 
     #table-price-box {
-        margin-left: 25%;
+        left: 50px;
+        width: 80%;
     }
 
     #invite {
@@ -454,7 +477,8 @@ textarea {
 
     #membership {
         text-align: left;
-        margin-left: 180px;
+        left: 50px;
+        position: relative;
     }
 
     .container {
@@ -462,21 +486,21 @@ textarea {
     }
 
     input[type=submit] {
-        margin-left: 30%;
-        width: 40%;
+        left: 50px;
+        width: 35%;
     }
 
     #in-touch {
-            margin-left: 100px;
-            text-align: center;
+           left: 10px;
+           text-align: center;
         }
 
     .contact-form {
-        margin-left: 30%;
+       left: 250px;
     }
 
     textarea {
-        max-width: 280px;
+        max-width: 500px;
         max-height: 300px;
     }
 
@@ -501,6 +525,10 @@ textarea {
         position: relative;
         top: 50px;
         font-size: 43%;
+    }
+
+    #hero-image {
+        height: 350px;
     }
 
     iframe {
@@ -540,6 +568,10 @@ textarea {
         font-size: 90%;
     }
 
+    #lady-swim-1 {
+        height: 350px;
+    }
+
     #table-title {
         margin-left: 10px;
     }
@@ -556,11 +588,15 @@ textarea {
         }
     
     td {
-        font-size: 50%;
+        font-size: 90%;
+    }
+
+    #lady-swim {
+        height: 350px;
     }
 
     #table-price-box {
-        margin-left: 25%;
+        left: 20px;
     }
 
     .price-table {
@@ -576,17 +612,23 @@ textarea {
 
     #membership {
         text-align: left;
-        margin-left: 10%;
+        left: -30px;
         font-size: 110%;
     }
 
     .container {
-        margin-left: 30%;
+        left: -180px;
+        width: 80%;
+        padding-bottom: 70px;
     }
 
     input[type=submit] {
-        margin-left: 30%;
-        width: 40%;
+        left: 30px;
+        width: 35%;
+    }
+
+    #pool-water {
+        height: 350px;
     }
 
     #in-touch {
@@ -594,12 +636,14 @@ textarea {
     }
 
     .contact-form {
-        margin-left: 30%;
+        left: 90px;
+        height: 680px;
+        width: 70%;
     }
 
     textarea {
-        max-width: 150px;
-        max-height: 300px;
+        max-width: 350px;
+        max-height: 230px;
     }
 
     #message-thanks {
@@ -651,7 +695,8 @@ textarea {
     .social-links {
         text-align: center;
         font-size: 80%;
-        margin-left: -10px;
+        left: 15px;
+        position: relative;
     }
 
     .opening-times p {
@@ -663,7 +708,6 @@ textarea {
     .footer {
         font-size: 110%;
         padding-top: 30px;
-
     }
 
     #lady-swim-1 {
@@ -698,8 +742,9 @@ textarea {
     }
 
     #table-price-box {
-        margin-left: 35px;
+        left: -35px;
         width: 80%;
+        font-size: 110%;
     }
 
     #invite {
@@ -715,28 +760,35 @@ textarea {
 
     .container {
         margin: 10px;
-        width: 75%
+        padding-left: 10px;
+        width: 80%;
+        left: 20px;
     }
 
     label {
+        left: 40px;
         font-size: 90%;
     }
 
     input[type=text] {
-        font-size: 90%;
+        left: 40px;
+         font-size: 90%;
     }
-
+   
     input[type=email] {
+        left: 40px;
         font-size: 90%;
     }
 
     input[type=password] {
+        left: 40px;
         font-size: 90%;
     }
 
     input[type=submit] {
         font-size: 90%;
         margin-left: 75px;
+        left: 10px;
     }
 
     #phone {
@@ -744,21 +796,20 @@ textarea {
     }
 
     #in-touch {
-        text-align: left;
-        margin-left: 5px;
-        font-size: 100%;
-    }
-
-    textarea {
-        max-width: 200px;
-        max-height: 300px;
+        text-align: center;
+        font-size: 75%;
     }
 
     .contact-form {
-        margin-left: 10px;
-        margin-right: 10px;
         margin-bottom: 10px;
         width: 70%;
+        left: 10px;
+    }
+
+    textarea {
+        max-width: 150px;
+        max-height: 250px;
+        left: 41px;
     }
 
     #message-thanks {
