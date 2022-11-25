@@ -404,7 +404,7 @@ textarea {
     }
 
     #table-price-box {
-       left: 200px;
+        left: 200px;
     }
 
     .container {
@@ -416,33 +416,32 @@ textarea {
         left: 140px;
         width: 25%;
     }
-    
+
     #in-touch {
-        left: 30px; 
-        }
+        left: 30px;
+    }
 
     .contact-form {
-       left: 380px ;
+        left: 380px;
     }
-    
+
     textarea {
         max-width: 500px;
     }
-    
+
     #invite {
         margin-left: 100px;
         text-align: left;
     }
-    
-    #membership  {
-       margin-left: 110px;
- }
-      
+
+    #membership {
+        margin-left: 110px;
+    }
+
     .container {
         margin-left: 500px;
     }
 }
-
 
 /*large to medium screen sizes from 1200px and down*/
 @media screen and (max-width: 1200px) {
@@ -457,7 +456,7 @@ textarea {
         color: #fff;
         position: relative;
         right: 1px;
-        font-size: 60%;
+        font-size: 80%;
     }
 
     iframe {
@@ -491,12 +490,12 @@ textarea {
     }
 
     #in-touch {
-           left: 10px;
-           text-align: center;
-        }
+        left: 10px;
+        text-align: center;
+    }
 
     .contact-form {
-       left: 250px;
+        left: 250px;
     }
 
     textarea {
@@ -524,7 +523,7 @@ textarea {
         right: -20px;
         position: relative;
         top: 50px;
-        font-size: 43%;
+        font-size: 45%;
     }
 
     #hero-image {
@@ -554,8 +553,8 @@ textarea {
         margin-left: 30px;
         font-size: 110%
     }
-    
-    .opening-times, 
+
+    .opening-times,
     .social-links {
         text-align: center;
         font-size: 70%;
@@ -585,8 +584,8 @@ textarea {
         margin: 2px 0 2px 0;
         width: 100%;
         margin-left: 0;
-        }
-    
+    }
+
     td {
         font-size: 90%;
     }
@@ -772,9 +771,9 @@ textarea {
 
     input[type=text] {
         left: 40px;
-         font-size: 90%;
+        font-size: 90%;
     }
-   
+
     input[type=email] {
         left: 40px;
         font-size: 90%;

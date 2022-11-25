@@ -48,25 +48,38 @@ The Aqua Pool is a website for anyone who is interested in swimming. The Aqua Po
 * There is a hover element to this table so when the user hovers over the class the background color will change. The idea was to link the classes so that the user would be sent to another page to fill in a form to book a class, however due to time constraints I was unable to achieve this. 
 
 
-## .Price List Features
+## Price List Features
+![Price Page](/assets/images/price-list-page.PNG)
+* Consists of the same structure as the Home page with the heading and navagation links, the main image (which has changed) and the footer which hold the same positions across the width of the page to keep consistany. 
 
-Price Table Section
-Membership Section
-Join Us Section
+* Heading of price list tells the user to expect information on the pricing for the centre.
+
+## Price Table Section
+![Price Table](/assets/images/price-table.PNG)
+* The user gets a clear understading of pricing for all age groups.
+
+## Membership Section
+![Membership](/assets/images/join-us.PNG)
 
 
-Contact Us Features
+## Join Us Section
+![Join Us Form](/assets/images/join-now-form.PNG)
+
+
+# Contact Us Features
+
+
 Navigation Bar (Home/Timetable/Price List/Contact Us)
 Header (The Aqua Pool/logo)
 Main Image 
-Contact Us Form Section
+## Contact Us Form Section
 Copy Right (Footer)
 
-Thank You Features
+# Thank You Features
 Navigation Bar (Home/Timetable/Price List/Contact Us)
 Header (The Aqua Pool/logo)
 Main Image 
-Thank You Message Section
+## Thank You Message Section
 Copy Right(Footer)
 
 # TESTING
@@ -77,24 +90,41 @@ Copy Right(Footer)
 
 
 ### BUGS
-. When testing my website on lighthouse for all screen sizes I had low performance because the jpg images were to large even though my jpg image was already compressed once.
-.When trying to add screenshot images to readme.md the image wasn't showing.
+* When testing my website on lighthouse for all screen sizes I had low performance because the jpg images were to large even though my jpg image was already compressed once.
+* When trying to add screenshot images to readme.md the image wasn't showing.
+* Google maps wasn't responding to any of the sizes I was entering into my style.css file.
+
 
 
 
 
 ### Solved
-. By looking below at the issue that lighthouse had found, I clicked on the learn more section and through that I found out that that webp would be a better for my images than jpg. I also decided to compress the image again to make it smaller. Once the images had been converted to webp and I tested again the score went up.
-.The file path I had entered didn't have a / at the beginning. /assets was needed to make the path work.
+* By looking below at the issue that lighthouse had found, I clicked on the learn more section and through that I found out that that webp would be a better for my images than jpg. I also decided to compress the image again to make it smaller. Once the images had been converted to webp and I tested again the score went up.
+* The file path I had entered didn't have a / at the beginning. /assets was needed to make the path work.
+* When looking at my html document in the iframe I could see that the height and width for the map was already written in. So in my style.css file I just needed to enter 100% for the width for the map to stretch across the page. 
+
+
 
 ### Unsolved Bugs
-. Even though I have changed my images from jpg to webp. The only issue I have left is that for mobile screens my performance has only increased a small amount and when last tested it had a performance rating of 77 (all other scores are at 100). The message "Serve static assets with an efficient cache policy" comes up and I unfortunately have no time left to fix this before this project is due.
+. Even though I have changed my images from jpg to webp. The only issue I have left is that for mobile screens my performance has only increased a small amount and when last tested it had a performance rating of 80 (all other scores are at 100). The message "Serve static assets with an efficient cache policy" comes up and I unfortunately have no time left to fix this before this project is due.
 
-![Mobile Performance](/assets/images/lighthouse-mobile.PNG)
+
 # Validator Testing
-. html
-. css
-. accessibility
+
+* html 
+The Official W3C Markup Validation Service
+* css
+The Official W3C Markup Validation Service (Jigsaw)
+
+* accessibility
+Testing for desktop
+![Mobile Performance](/assets/images/lighthouse-desktop.PNG)
+Testing for laptop
+![Mobile Performance](/assets/images/lighthouse-laptop.PNG)
+Testing for tablet
+![Mobile Performance](/assets/images/lighthouse-tablet.PNG)
+Testing for mobile
+![Mobile Performance](/assets/images/lighthouse-mobile.PNG)
 
 # Deployment
 
