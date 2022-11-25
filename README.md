@@ -67,20 +67,26 @@ The Aqua Pool is a website for anyone who is interested in swimming. The Aqua Po
 
 
 # Contact Us Features
-
+![Join Us Form](/assets/images/contact-page.PNG)
 
 Navigation Bar (Home/Timetable/Price List/Contact Us)
-Header (The Aqua Pool/logo)
-Main Image 
+
+![Join Us Form](/assets/images/contact.PNG)
+Header (The Aqua Pool/logo)Headings
+
+
 ## Contact Us Form Section
-Copy Right (Footer)
+![Join Us Form](/assets/images/contact-us-form.PNG)
+
 
 # Thank You Features
+![Join Us Form](/assets/images/thank-you-page.PNG)
+
 Navigation Bar (Home/Timetable/Price List/Contact Us)
-Header (The Aqua Pool/logo)
-Main Image 
+Header (The Aqua Pool/logo) Main Image 
+
 ## Thank You Message Section
-Copy Right(Footer)
+![Join Us Form](/assets/images/thank-you-message.PNG)
 
 # TESTING
 .Testing the website works in different browsers. Chrome.
@@ -112,11 +118,14 @@ Copy Right(Footer)
 # Validator Testing
 
 * html 
-The Official W3C Markup Validation Service
+I used the official W3C markup validation service to check all my HTML.
 * css
-The Official W3C Markup Validation Service (Jigsaw)
+I used the official W3C markup validation service (Jigsaw) to check all of my CSS styling.
 
 * accessibility
+I used lighthouse through devtools to test the accessibilty of the site. Performance, accessibility,best practaces and seo all scored highly in all tests apart from for mobile in which performance was the only section not in green, but of a score of 80. 
+I can confirm that colours and fonts used are easy to read and accessable by running the site through lighthouse. 
+
 Testing for desktop
 ![Mobile Performance](/assets/images/lighthouse-desktop.PNG)
 Testing for laptop
@@ -134,7 +143,7 @@ From the settings tab scroll down to the pages tab.
 From source select deploy from a branch, then from branch select main branch.
 Once selected click save. The page will now provide the link to the complete website.
 
-The live website link can be found here -
+The live website link can be found here -[The Aqua Pool]()
 
 # Credits 
 
