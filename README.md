@@ -41,6 +41,7 @@ The Aqua Pool is a website for anyone who is interested in swimming. The Aqua Po
 ![The Footer](/assets/images/the-footer.PNG)
 
 * Consists of the same structure as the Home page with the heading and navagation links, the main image (which has changed) and the footer which hold the same positions across the width of the page to keep consistany. 
+* The heading highlights that the user is on the timetable page and below is where the timetable will be.
 
 ![Timetable](/assets/images/timetable-table.PNG)
 # .Timetable Section
@@ -52,41 +53,41 @@ The Aqua Pool is a website for anyone who is interested in swimming. The Aqua Po
 ![Price Page](/assets/images/price-list-page.PNG)
 * Consists of the same structure as the Home page with the heading and navagation links, the main image (which has changed) and the footer which hold the same positions across the width of the page to keep consistany. 
 
-* Heading of price list tells the user to expect information on the pricing for the centre.
+* Heading of price list tells the user to expect information on the pricing for the centre and below is where the price list will be.
 
 ## Price Table Section
 ![Price Table](/assets/images/price-table.PNG)
-* The user gets a clear understading of pricing for all age groups.
+* The user gets a clear understading of pricing for all age groups. 
 
 ## Membership Section
 ![Membership](/assets/images/join-us.PNG)
+* The heading of Join us will make the user aware of the option to join the centre.
+* The user is then invited to join a membership club with the centre. Highlighting the various benefits of joining. 
 
 
 ## Join Us Section
 ![Join Us Form](/assets/images/join-now-form.PNG)
-
+* The user can enter their details in this join us form section. The form work correctly and I have included the required entries in all fields so for example an email address is required in the email address box and nothing else will be accepted so it must have the correct @ value included. The form sends the user back to the Home page.
 
 # Contact Us Features
 ![Join Us Form](/assets/images/contact-page.PNG)
-
-Navigation Bar (Home/Timetable/Price List/Contact Us)
-
-![Join Us Form](/assets/images/contact.PNG)
-Header (The Aqua Pool/logo)Headings
-
+* Consists of the same structure as the Home page with the heading and navagation links, the main image (which has changed) and the footer which hold the same positions across the width of the page to keep consistany. 
+* The heading of contact us will tell the user to expect a way to contact the centre. 
 
 ## Contact Us Form Section
+
+![Join Us Form](/assets/images/contact.PNG)
 ![Join Us Form](/assets/images/contact-us-form.PNG)
 
+The contact us form works correctly and I have included the required entries in all fields so for example an email address is required in the email address box and nothing else will be accepted so it must have the correct @ value included. This contact us form will send the user to a seperate page that is the thank you page. 
 
 # Thank You Features
 ![Join Us Form](/assets/images/thank-you-page.PNG)
-
-Navigation Bar (Home/Timetable/Price List/Contact Us)
-Header (The Aqua Pool/logo) Main Image 
+* Consists of the same structure as the Home page with the heading and navagation links, the main image (which has changed) and the footer which hold the same positions across the width of the page to keep consistany. 
 
 ## Thank You Message Section
 ![Join Us Form](/assets/images/thank-you-message.PNG)
+* Once the user has completed the contact us form they will be sent to this thank you page which there is a thank you message, telling the user thank you for their message and that the centre will respond in a certain time period. The user can then click on the navagation links to go to any page they wish for example if they want to go back to the home page they click on home or even The Aqua Pool logo. This page is seperate from the rest and can only be accessed by filling in the contact us form. 
 
 # TESTING
 .Testing the website works in different browsers. Chrome.
