@@ -44,7 +44,7 @@ The Aqua Pool is a website for anyone who is interested in swimming. The Aqua Po
 * The heading highlights that the user is on the timetable page and below is where the timetable will be.
 
 ![Timetable](/assets/images/timetable-table.PNG)
-# Timetable Section
+## Timetable Section
 * The timetable section consists of all the relevant information the user would need to see what class is on, at what specific time, on each day of the week. 
 * There is a hover element to this table so when the user hovers over the class the background colour will change. The idea was to link the classes so that the user would be sent to another page to fill in a form to book a class, however due to time constraints, I was unable to achieve this but it would be something I would like to add to in the future. 
 
@@ -68,7 +68,7 @@ The Aqua Pool is a website for anyone who is interested in swimming. The Aqua Po
 ![Join Us Form](/assets/images/join-now-form.PNG)
 * The user can enter their details in this join us form section. The form works correctly and I have included the required entries in all fields so for example an email address is required in the email address box and nothing else will be accepted so it must have the correct @ value included. The form sends the user back to the Home page.
 
-# Contact Us Features
+## Contact Us Features
 ![Join Us Form](/assets/images/contact-page.PNG)
 * Consists of the same structure as the Home page with the heading and navigation links, the main image (which has changed) and the footer which hold the same positions across the width of the page to keep consistency. 
 * The heading of contact us will tell the user to expect a way to contact the centre. 
@@ -80,7 +80,7 @@ The Aqua Pool is a website for anyone who is interested in swimming. The Aqua Po
 
 * The contact us form works correctly and I have included the required entries in all fields so for example an email address is required in the email address box and nothing else will be accepted so it must have the correct @ value included. This contact us form will send the user to a separate page that is the thank you page. 
 
-# Thank You Features
+## Thank You Features
 ![Join Us Form](/assets/images/thank-you-page.PNG)
 * Consists of the same structure as the Home page with the heading and navigation links, the main image (which has changed) and the footer which hold the same positions across the width of the page to keep consistency. 
 
@@ -88,13 +88,13 @@ The Aqua Pool is a website for anyone who is interested in swimming. The Aqua Po
 ![Join Us Form](/assets/images/thank-you-message.PNG)
 * Once the user has completed the contact us form they will be sent to this thank you page which there is a thank you message, telling the user thank you for their message and that the centre will respond in a certain time period. The user can then click on the navigation links to go to any page they wish for example if they want to go back to the home page they click on home or even The Aqua Pool logo. This page is separate from the rest and can only be accessed by filling in the contact us form. 
 
-# TESTING
+## Testing
 * Testing the website works in different browsers: Chrome and Firefox.
 * The navigation bar works and takes the user to the correct page.
 * The navigation is easy to read and understand.
 * Forms work correctly, and I have included the required entries in all fields so for example an email address is required in the email address box and nothing else will be accepted so it must have the correct @ value included.  
 
-### BUGS
+### Bugs
 * When testing my website on lighthouse for all screen sizes I had low performance because the jpg images were too large even though my jpg image was already compressed once.
 * When trying to add screenshot images to readme.md the image wasn't showing.
 * Google maps wasn't responding to any of the sizes I was entering into my style.css file.
@@ -107,22 +107,22 @@ The Aqua Pool is a website for anyone who is interested in swimming. The Aqua Po
 ### Unsolved Bugs
 * Even though I have changed my images from jpg to webp. The only issue I have left is that for mobile screens my performance has only increased a small amount and when last tested it had a performance rating of 80 (all other scores are at 100). The message "Serve static assets with an efficient cache policy" comes up and I unfortunately have no time left to fix this before this project is due.
 
-# Validator Testing
+## Validator Testing
 * I used the official W3C markup validation service to check all my HTML. No errors were found.
 * I used the official W3C markup validation service (Jigsaw) to check all of my CSS styling. No errors were found.
 * I used lighthouse through devtools to test the accessibility of the site. Performance, accessibility, best practices and seo all scored highly in all tests apart from for mobile in which performance was the only section not in green, but of a score of 80. 
 * I can confirm that colours and fonts used are easy to read and accessible by running the site through lighthouse. 
 
-## Testing for desktop
+### Testing for desktop
 ![Mobile Performance](/assets/images/lighthouse-desktop.PNG)
-## Testing for laptop
+### Testing for laptop
 ![Mobile Performance](/assets/images/lighthouse-laptop.PNG)
-## Testing for tablet
+### Testing for tablet
 ![Mobile Performance](/assets/images/lighthouse-tablet.PNG)
-## Testing for mobile
+### Testing for mobile
 ![Mobile Performance](/assets/images/lighthouse-mobile.PNG)
 
-# Deployment
+## Deployment
 
 The site was deployed to GitHub pages, the steps to deploy are as follows.
 Start in the GitHub repository and navigate to settings tab.
@@ -132,13 +132,13 @@ Once selected click save. The page will now provide the link to the complete web
 
 The live website link can be found here -[The Aqua Pool](https://k-jc.github.io/the-aqua-pool/)
 
-# Credits 
+## Credits 
 
-## Content
+### Content
 
 * Using [GitHub docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#uploading-assets) to figure out how to enter a screenshot to my README.md file.
 
 * Code for navigation and hero image taken from Code Institute [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode).
 
-## Media 
+### Media 
 * All images used for this site were taken from [Pexels](https://www.pexels.com/).
