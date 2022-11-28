@@ -8,7 +8,7 @@ The Aqua Pool is a website for anyone who is interested in swimming. The Aqua Po
 
 ## Home Page Features
 
-### . Navigation
+### Navigation
 
 ![Navigation Links](/assets/images/home-navigation.PNG)
 * At the top left of the page sits The Aqua Pool logo, this is the name of the swimming centre. When this is clicked on any of the other page it will return the user to the home page.
@@ -16,27 +16,27 @@ The Aqua Pool is a website for anyone who is interested in swimming. The Aqua Po
 * The font and colour chosen contrasts well with the background. 
 * The navigation links are clear and easy to understand. It is clear what the name of the swimming centre is and makes the different sections of the website easy to see and to find.
 
-## . Hero-Image
+## Hero-Image
 * The main image is positioned behind the pool name and navigation bar. It stretches across the width of the page while maintaining its quality. It gives the user that extra information about what this website is about. 
 
 ![Home Headings](/assets/images/home-heading.PNG)
-## . Heading (Welcome to The Aqua Pool/Benefits) Section
+## Heading (Welcome to The Aqua Pool/Benefits) Section
 * The heading welcomes users to learn more about the centre.
 * Underneath the heading is a paragraph which explains to the user all the information they would need about that centre. From how big the pool is to how many lanes they can accommodate for. 
 * Underneath the paragraph is another heading which is for the benefits of swimming. Then another paragraph, this gives the user that extra information on why swimming is such a good form of exercise mentally and physically.
 
 ![Information Sections](/assets/images/home-open-social-map-footer.PNG)
-## . Opening Times/Social Links Section
+## Opening Times/Social Links Section
 * In this section are the opening times and social media links for the centre. The opening times are clear and gives valuable information to the user on when the centre is open.
 * Also included are the social media links which allow the user to find the centre on Facebook, Twitter and Instagram. These all open up into separate web pages. 
 
-## .Google Map Section
+## Google Map Section
 * In this section is the map which highlights Essex. Where this fictional swimming centre is based. The map is spread across the width of the page, the same as the hero image. So there is consistency in how the site looks.
 
-## . Footer (Copy Right)
-*The footer consist of the copy right information for the centre. This like the hero image and the map, is spread across the width of the page to give consistency to the page. The copy right information is positioned to the centre.
+## Footer (Copy Right)
+* The footer consist of the copy right information for the centre. This like the hero image and the map, is spread across the width of the page to give consistency to the page. The copy right information is positioned to the centre.
 
-## .Timetable Page Features
+## Timetable Page Features
 ![Timetable Page](/assets/images/timetable%20page.PNG)
 ![The Footer](/assets/images/the-footer.PNG)
 
@@ -44,7 +44,7 @@ The Aqua Pool is a website for anyone who is interested in swimming. The Aqua Po
 * The heading highlights that the user is on the timetable page and below is where the timetable will be.
 
 ![Timetable](/assets/images/timetable-table.PNG)
-# .Timetable Section
+# Timetable Section
 * The timetable section consists of all the relevant information the user would need to see what class is on, at what specific time, on each day of the week. 
 * There is a hover element to this table so when the user hovers over the class the background colour will change. The idea was to link the classes so that the user would be sent to another page to fill in a form to book a class, however due to time constraints, I was unable to achieve this but it would be something I would like to add to in the future. 
 
@@ -66,7 +66,7 @@ The Aqua Pool is a website for anyone who is interested in swimming. The Aqua Po
 
 ## Join Us Section
 ![Join Us Form](/assets/images/join-now-form.PNG)
-* The user can enter their details in this join us form section. The form work correctly and I have included the required entries in all fields so for example an email address is required in the email address box and nothing else will be accepted so it must have the correct @ value included. The form sends the user back to the Home page.
+* The user can enter their details in this join us form section. The form works correctly and I have included the required entries in all fields so for example an email address is required in the email address box and nothing else will be accepted so it must have the correct @ value included. The form sends the user back to the Home page.
 
 # Contact Us Features
 ![Join Us Form](/assets/images/contact-page.PNG)
@@ -89,7 +89,7 @@ The Aqua Pool is a website for anyone who is interested in swimming. The Aqua Po
 * Once the user has completed the contact us form they will be sent to this thank you page which there is a thank you message, telling the user thank you for their message and that the centre will respond in a certain time period. The user can then click on the navigation links to go to any page they wish for example if they want to go back to the home page they click on home or even The Aqua Pool logo. This page is separate from the rest and can only be accessed by filling in the contact us form. 
 
 # TESTING
-* Testing the website works in different browsers. Chrome.
+* Testing the website works in different browsers: Chrome and Firefox.
 * The navigation bar works and takes the user to the correct page.
 * The navigation is easy to read and understand.
 * Forms work correctly, and I have included the required entries in all fields so for example an email address is required in the email address box and nothing else will be accepted so it must have the correct @ value included.  
@@ -138,7 +138,7 @@ The live website link can be found here -[The Aqua Pool](https://k-jc.github.io/
 
 * Using [GitHub docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#uploading-assets) to figure out how to enter a screenshot to my README.md file.
 
-* Code for navigation taken from Code Institute [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode).
+* Code for navigation and hero image taken from Code Institute [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode).
 
 ## Media 
 * All images used for this site were taken from [Pexels](https://www.pexels.com/).
